@@ -1,0 +1,92 @@
+{
+  "name": "@ux-plus/chunk-uploader",
+  "public": true,
+  "version": "2.0.1",
+  "description": "这是一款基于axios开发的大文件分片上传插件支持断点续传以及暂停，开发者无需关注具体的实现逻辑即可快速实现",
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "npx vite dev --config ./build/dev.ts",
+    "build": "npx vite build --config ./build/lib.ts",
+    "lint": "npx eslint --fix",
+    "test": "npx vitest",
+    "lint-staged": "lint-staged",
+    "husky": "pnpm exec husky init",
+    "commit": "pnpm lint && git add . && npx cz",
+    "coverage": "vitest run --coverage",
+    "testui": "npx vitest --ui"
+  },
+  "exports": {
+    ".": {
+      "module-sync": "./dist/index.mjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "author": "ux_rcl",
+  "files": [
+    "dist"
+  ],
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://opensource.org/licenses/apache2.0.php"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/YTXEternal/ux-plus-chunk-uploader/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YTXEternal/ux-plus-chunk-uploader"
+  },
+  "keywords": [
+    "file upload",
+    "ux-plus"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "readme": "README.npm.md",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@eslint/js": "^9.24.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@types/node": "^22.14.1",
+    "@types/spark-md5": "^3.0.5",
+    "@typescript-eslint/eslint-plugin": "^8.29.1",
+    "@typescript-eslint/parser": "^8.29.1",
+    "@vitest/coverage-v8": "^3.1.1",
+    "@vitest/ui": "^3.1.1",
+    "axios-mock-adapter": "^2.1.0",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0",
+    "happy-dom": "^17.4.4",
+    "husky": "^9.1.7",
+    "jsdom": "^26.1.0",
+    "lint-staged": "^15.5.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.29.1",
+    "vite": "^6.2.6",
+    "vite-plugin-dts": "^4.5.3",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "spark-md5": "^3.0.2"
+  }
+}

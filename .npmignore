@@ -1,0 +1,98 @@
+# 版本控制系统相关
+.git
+.gitignore
+
+# 构建输出目录（根据你的构建工具调整）
+/build
+/lib
+/out-tsc
+/dist
+/dist-ssr
+
+# 测试文件
+/test
+/tests
+/spec
+/__tests__
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+
+# 开发环境配置及依赖
+/node_modules
+/.vscode
+/.idea
+
+# 本地服务器
+/server
+
+# IDE 配置文件
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 日志文件
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 本地环境配置
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 敏感数据与临时文件
+/secrets
+/tmp
+/temp
+
+# 文档与资源
+/docs
+/example
+/sample
+/readme.md~
+*.md~
+
+# 示例
+/examples
+
+# 特定于操作系统的文件
+Thumbs.db
+.DS_Store
+
+# 其他配置和生成文件
+.npmrc
+eslint.config.js
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+public
+index.html
+
+# Husky hooks 目录
+.husky
+
+# 源代码目录(如果你不希望发布源代码)
+/src
+
+# 忽略所有 .local 文件
+*.local
+
+# 其他文件
+/coverage
+.commitlintrc.md
+.commitlintrc.json
+.explanation.md
+README_en.md
+README.md

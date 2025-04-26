@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "russell.any-rule",
+        "rvest.vs-code-prettier-eslint",
+        "YoavBls.pretty-ts-errors",
+        "vitest.explorer",
+        "crystal-spider.jsdoc-generator",
+        "ritwickdey.LiveServer",
+        "antfu.unocss",
+        "esbenp.prettier-vscode"
+    ]
+}
