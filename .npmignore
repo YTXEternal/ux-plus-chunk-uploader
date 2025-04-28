@@ -91,8 +91,4 @@ index.html
 
 # 其他文件
 /coverage
-.commitlintrc.md
 .commitlintrc.json
-.explanation.md
-README_en.md
-README.md
