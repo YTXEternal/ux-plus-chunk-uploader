@@ -1,7 +1,7 @@
 {
   "name": "@ux-plus/chunk-uploader",
   "public": true,
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "这是一款基于axios开发的大文件分片上传插件支持断点续传以及暂停，开发者无需关注具体的实现逻辑即可快速实现",
   "type": "module",
   "main": "./dist/index.mjs",
@@ -50,7 +50,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "readme": "README.npm.md",
+  "readme": "README.md",
   "devDependencies": {
     "@babel/preset-env": "^7.26.9",
     "@commitlint/cli": "^19.8.0",
