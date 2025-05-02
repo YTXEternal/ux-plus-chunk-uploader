@@ -4,7 +4,7 @@
 
 [基本信息](https://github.com/YTXEternal/ux-plus-chunk-uploader/blob/master/EXPLANATION.md)
 
-[Git Flow](https://github.com/YTXEternal/ux-plus-chunk-uploader/blob/master/EXPLANATION.md)
+[Git Flow](https://github.com/YTXEternal/ux-plus-chunk-uploader/blob/master/GITFLOW.md)
 
 ### 1. Fork 仓库
 
