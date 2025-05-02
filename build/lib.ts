@@ -61,10 +61,6 @@ export default mergeConfig(
         rollupTypes: true,
         tsconfigPath: "./tsconfig.build.json",
       }),
-      dts({
-        tsconfigPath: "./tsconfig.build.json",
-        copyDtsFiles: true,
-      }),
     ],
     esbuild: {
       drop: ["console", "debugger"],
