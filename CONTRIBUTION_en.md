@@ -4,6 +4,7 @@ Thank you for your interest in this project and willingness to contribute! In th
 
 [basic info](https://github.com/YTXEternal/ux-plus-chunk-uploader/blob/master/EXPLANATION_en.md)
 
+[Git Flow](https://github.com/YTXEternal/ux-plus-chunk-uploader/blob/master/GITFLOW_en.md)
 
 ### 1. Fork
 

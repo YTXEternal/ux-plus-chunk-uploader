@@ -58,7 +58,7 @@ pnpm commit
 Push your feature branch to GitHub and wait for my approval. Once approved, continue with the following steps.
 git push origin feature/getData 
 (After approval)
-git flow feature finish getData  // This operation will directly merge into the develop branch and delete this feature branch
+git flow feature finish getData  // This operation will directly merge into the develop branch 
 ```
 
 
