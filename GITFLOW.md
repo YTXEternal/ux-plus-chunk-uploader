@@ -62,7 +62,7 @@ pnpm commit
 把你的feature分支推送到github中 等待我的审批就好了，当你的提交审核通过后就可以继续下面的操作了
 git push origin feature/getData 
 （审核通过后继续操作）
-git flow feature finish getData  // 这个操作会直接合并到develop分支并删除这个功能分支
+git flow feature finish getData  // 这个操作会直接合并到develop分支这个功能分支
 ```
 
 
