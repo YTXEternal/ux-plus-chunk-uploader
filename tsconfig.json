@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/jsconfig",
   "compilerOptions": {
     "target": "ESNext",
     "baseUrl": "./",
