@@ -6,8 +6,6 @@
 /build
 /lib
 /out-tsc
-/dist
-/dist-ssr
 
 # 测试文件
 /test
